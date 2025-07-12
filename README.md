@@ -112,3 +112,7 @@ This project is licensed under the MIT License.
 ## Maintainer
 
 Maintained by [@mwondha](https://github.com/mwondhaf)
+
+## Repository
+
+Project on GitHub: [https://github.com/mwondhaf/pesapal-v3](https://github.com/mwondhaf/pesapal-v3)
