@@ -1,6 +1,6 @@
 {
   "name": "pesapal-v3",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A lightweight Pesapal payment gateway integration for Node.js and TypeScript.",
   "main": "dist/index.js",
   "exports": {
