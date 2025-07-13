@@ -4,7 +4,9 @@
 [![npm version](https://img.shields.io/npm/v/pesapal-v3.svg)](https://www.npmjs.com/package/pesapal-v3)
 [![GitHub Repo stars](https://img.shields.io/github/stars/mwondhaf/pesapal-v3?style=social)](https://github.com/mwondhaf/pesapal-v3)
 
+
 This is a Node.js/TypeScript client for interacting with the Pesapal API. It provides a convenient way to integrate Pesapal payment services into your Node.js applications.
+
 
 ## Features
 - Simple, promise-based API for Pesapal integration
@@ -41,6 +43,7 @@ const pesapal = new Pesapal({
   consumerSecret: 'YOUR_CONSUMER_SECRET',
   apiBaseUrl: 'https://cybqa.pesapal.com/pesapalv3/api', // Use 'https://pay.pesapal.com/v3/api' for production
 });
+// No need to set up axios. All HTTP requests use ky under the hood.
 ```
 
 ### Authentication

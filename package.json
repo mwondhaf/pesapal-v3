@@ -1,6 +1,6 @@
 {
   "name": "pesapal-v3",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A lightweight Pesapal payment gateway integration for Node.js and TypeScript.",
   "main": "dist/index.js",
   "exports": {
@@ -23,8 +23,8 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.7.7",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "ky": "^1.0.0"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
@@ -34,7 +34,7 @@
     "typescript": "^5.8.3"
   },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/mwondhaf/pesapal-v3.git"
-}
+    "type": "git",
+    "url": "https://github.com/mwondhaf/pesapal-v3.git"
+  }
 }
