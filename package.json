@@ -20,7 +20,7 @@
     "payment-gateway",
     "node"
   ],
-  "author": "Your Name",
+  "author": "Francis Mwondha",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.4.5",

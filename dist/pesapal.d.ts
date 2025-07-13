@@ -1,7 +1,7 @@
 import { PesapalConfig, IPNRegistrationRequest, IPNRegistrationResponse, PaymentRequest, PaymentResponse, TransactionStatusResponse } from './types';
 export declare class Pesapal {
     private config;
-    private axiosInstance;
+    private kyInstance;
     constructor(config: PesapalConfig);
     getAuthToken(): Promise<string>;
     registerIPN(data: IPNRegistrationRequest): Promise<IPNRegistrationResponse>;
