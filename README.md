@@ -69,8 +69,8 @@ console.log(response);
 ```js
 const response = await pesapal.submitOrder({
   id: 'ORDER_ID'// can be a UUID or anything else,
-  currency: 'KES',
-  amount: 100,
+  currency: 'UGX',
+  amount: 10_000,
   description: 'Payment for goods',
   callback_url: 'YOUR_PAYMENT_CALLBACK_URL',
   notification_id: 'YOUR_IPN_ID',
